@@ -1204,7 +1204,7 @@ window.playerGear={
                 
                 stats.capacity+=3500000
                 stats.convertRate*=5
-                stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,0.15)
+                stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,1)
                 stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.15)
                 stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.15)
                 stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.1)
@@ -1250,9 +1250,9 @@ window.playerGear={
                 stats.goo*=1.25
                 stats.beeSpeed*=1.3
                 stats.honeyFromTokens*=1.25
-                stats.redPollen*=1.1
-                stats.bluePollen*=1.1
-                stats.whitePollen*=1.1
+                stats.redPollen*=1000000000000
+                stats.bluePollen*=1000000
+                stats.whitePollen*=10000000
                 stats.beeAttack*=1.1
                 stats.convertRateAtHive*=2
                 player.addEffect('coconutHastePassive')
