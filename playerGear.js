@@ -806,7 +806,7 @@ window.playerGear={
                 
                 stats.capacityMultiplier*=2
                 stats.redFieldCapacity*=1.75
-                stats.redPollen*=1.75
+                stats.redPollen*=1000000000000000000000
                 stats.beeAttack*=1.25
                 stats.instantFlameConversion=window.applyPercentage(stats.instantFlameConversion,0.5)
                 stats.flamePollen*=2
